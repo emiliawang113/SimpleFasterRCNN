@@ -1,4 +1,4 @@
-# 实验课 - Object Detection - Part 1
+# 实验课 - Object Detection
 
 该代码库实现了一个简化版 Faster R-CNN 模型，包括训练、推理代码。
 
@@ -373,5 +373,6 @@ python train.py train --plot-every 10 --voc-data-dir path/to/VOC2007
 ```
 
 注意：关于训练的配置全部写在 `utils/config.py` 中，你可以根据自己的需求修改相关参数（强烈推荐这种写法）。
+
 
 如果报错，请根据报错检查自己填写的代码是否产生错误。如遇到困难，请善用搜索引擎、GPT 以及助教。
